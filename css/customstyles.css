@@ -107,29 +107,24 @@ p {
 
 /* Contact us */
 
-.row {
-  margin: 0;
-}
-
-.contact {
-  margin: 25px 2% 0 2%;
-}
-
 .contact-us h1 {
 	margin: 0;
 	padding: 15px 0;
 	background-color: #00998a;
 	font-weight: normal;
-    font-family: 'nerislight', sans-serif;
-    text-align: center;
+  font-family: 'nerislight', sans-serif;
 }
 
 .contact-us h2 {
 	color: #000;
 	font-family: 'nerissemibold', sans-serif;
 	font-size: 1.2em;
-	margin-top: 1.2em;
+	margin-top: 2em;
   margin-bottom: 1em;
+}
+
+.contact-details {
+  padding: 0 15px;
 }
 
 .social-contact {
@@ -140,6 +135,11 @@ p {
 .contact-us ul {
   list-style-type: none;
 	padding: 0;
+}
+
+.list-group-item {
+  border: none !important;
+  padding-left: 0;
 }
 
 label,
@@ -157,6 +157,7 @@ input[type="text"],
 input[type="email"],
 textarea {
 font-size: 0.9em;
+background-color: rgba(0,153,138,0.3) !important;
 }
 
 .btn {
@@ -165,10 +166,6 @@ font-size: 0.9em;
 	font-family: 'Lato', sans-serif;
   font-size: 1em;
 	font-weight: bold;
-}
-
-.contact-details {
-  padding-left: 15px;
 }
 
 .contact-details li a {
@@ -196,5 +193,11 @@ font-size: 0.9em;
       .about-us h2 {
           margin-top: 50px;
       }
+
+    /* Contact us */
+
+    .contact-us h2 {
+        margin-top: 50px;
+    }
 
 }
