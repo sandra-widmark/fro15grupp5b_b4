@@ -108,19 +108,19 @@ p {
 
 /*portfolio*/
 
-.portfolio li:nth-boy(1) {
+.portfolio li:nth-child(1) {
     background: url("../img/boy.gif") no-repeat;
     background-size: 100%;
     
     
 }
 
-.portfolio li:nth-children(2) {
+.portfolio li:nth-child(2) {
     backround: url("../img/children.gif") no-repeat;
     background-size: 100%;
 }
 
-.portfolio li:nth-girl(3){
+.portfolio li:nth-child(3){
     background: url("../img/girl.png") no-repeat;
     background-size: 100%;
 }
