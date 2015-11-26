@@ -242,6 +242,28 @@ background:     #e8c52e;
 	background-size: 100%;
 }
 
+
+/*portfolio*/
+
+.portfolio li:nth-boy(1) {
+    background: url("../img/boy.gif") no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+.portfolio li:nth-children(2) {
+    backround: url("../img/children.gif") no-repeat;
+    background-size: 100%;
+}
+
+.portfolio li:nth-girl(3){
+    background: url("../img/girl.png") no-repeat;
+    background-size: 100%;
+}
+
+
+
 /* Contact us */
 
 .contact-us h1 {
