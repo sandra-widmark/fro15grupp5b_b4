@@ -313,6 +313,39 @@ background-color: rgba(0,153,138,0.3) !important;
 
 
 
+    /* Footer */
+
+
+
+footer  {
+    text-align: center;
+    color: white;
+    font-family: "lato";
+    font-size: 0.8em;
+    clear: both;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+   margin-top: 40px; 
+    }
+
+
+.footer-paragraph {
+   margin: 0 auto;
+    padding: 3px 0 10px;
+    font-size: 1.2em; 
+    
+
+}
+
+
+.social {
+    height:40px;
+    padding: 15px 5px 0px 5px;
+}
+
+
+
+
 /* Media queries tablet size */
 
 @media screen and (min-width: 768px)  {
@@ -369,13 +402,15 @@ margin: 0 7% 0 7%;
 .landingpage-ul p {
     font-size: 1.1em; 
 
+    }
+    
     /* Contact us */
 
     .contact-us h2 {
         margin-top: 50px;
     }
 
-}
+
 
     
      .landingpage-ul a {
