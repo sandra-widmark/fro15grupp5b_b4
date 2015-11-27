@@ -143,11 +143,11 @@ color: white;
 .landingpage h2 {
 
 font-family: 'Lato', sans-serif;
-font-size: 1em; 
-color: white; 
-margin: 0 7% 0 7%; 
-line-height: 20px; 
-   
+font-size: 1em;
+color: white;
+margin: 0 7% 0 7%;
+line-height: 20px;
+
 }
 
 
@@ -208,13 +208,13 @@ background:     #e8c52e;
 
 .about-us li {
   	border: none;
-  	padding: 40px 0 10px;
+  	padding: 35px 0 10px;
 		margin: 0 0.5% 20px;
   	text-align: center;
   	font-family: 'nerissemibold', sans-serif;
   	font-weight: bold;
   	color: #e8c52e;
-  	font-size: 0.95em;
+  	font-size: 1em;
 		width: 93px;
 		height: 94px;
 }
@@ -408,11 +408,11 @@ footer  {
 
 	.about-us li {
 	  	padding: 80px 0 10px;
-        margin: 20px 20px 50px;
+      margin: 20px 20px 50px;
 	  	text-align: center;
-	  	font-size: 1.7em;
-        width: 200px;
-        height: 201px;
+	  	font-size: 2em;
+      width: 200px;
+      height: 201px;
 	}
 
   .about-us h2 {
@@ -430,22 +430,22 @@ footer  {
 
 
  .landingpage h2 {
-    
-font-size: 1.9em; 
+
+font-size: 1.9em;
 margin: 0 10% 0 10%;
 line-height: 35px;
-    
+
     }
 
 .landingpage-ul {
-  padding: 70px; 
+  padding: 70px;
 }
-    
+
 
 .landingpage-ul a {
-    color: #e8c52e; 
-    border: 6px solid #e8c52e; 
-    font-size: 1.6em; 
+    color: #e8c52e;
+    border: 6px solid #e8c52e;
+    font-size: 1.6em;
 }
 
   .landingpage-li {
