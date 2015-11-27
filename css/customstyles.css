@@ -149,6 +149,7 @@ font-family: 'Lato', sans-serif;
 font-size: 1em; 
 color: white; 
 margin: 0 7% 0 7%; 
+line-height: 20px; 
    
 }
 
@@ -430,7 +431,8 @@ margin: 60px 40px 40px 40px;
 .landingpage h2 {
     
 font-size: 1.9em; 
-margin: 0 7% 0 7%;
+margin: 0 10% 0 10%;
+line-height: 35px;
 
    
 }
@@ -438,6 +440,13 @@ margin: 0 7% 0 7%;
 
 .landingpage-ul {
   padding: 70px; 
+}
+    
+
+.landingpage-ul a {
+    color: #e8c52e; 
+    border: 6px solid #e8c52e; 
+    font-size: 1.6em; 
 }
 
 
@@ -461,12 +470,6 @@ margin: 0 7% 0 7%;
 
 
 
-    
-     .landingpage-ul a {
-    color: #e8c52e; 
-    border: 6px solid #e8c52e; 
-    font-size: 1.6em; 
-}
     
     /*.portfolio*/
     
