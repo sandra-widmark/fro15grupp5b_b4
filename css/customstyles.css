@@ -242,6 +242,55 @@ background:     #e8c52e;
 	background-size: 100%;
 }
 
+
+/*portfolio*/
+
+
+/*.portfolio{
+    background-color: #fff;
+    padding: 0 0;
+    width: 100%;
+}*/
+
+
+
+.portfolio h1{
+  margin: 0;
+  padding: 15px 0;
+  background-color: #d4145a;
+  font-weight: normal;
+  font-family: 'nerislight', sans-serif;
+ 
+    
+}
+
+.portfolio h2 {
+    color: #000;
+    margin-top: 2em;
+    font-family: 'nerislight' sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.portfolio li:nth-child(1) {
+    background: url("../img/boy.gif") no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+.portfolio li:nth-child(2) {
+    background: url("../img/children.gif") no-repeat;
+    background-size: 100%;
+}
+
+.portfolio li:nth-child(3){
+    background: url("../img/girl.png") no-repeat;
+    background-size: 100%;
+}
+
+
+
 /* Contact us */
 
 .contact-us h1 {
@@ -418,6 +467,12 @@ margin: 0 7% 0 7%;
     border: 6px solid #e8c52e; 
     font-size: 1.6em; 
 }
+    
+    /*.portfolio*/
+    
+   /* .portfolio-gallery-ul li{
+        heigt: 310px;
+    }*/
 }
 
 
@@ -469,6 +524,12 @@ margin: 90px 40px 60px 40px;
 
    
 }
+    
+    /*/*portfolio*/
+    
+    .portfolio-gallery-ul li{
+        height: 310px;
+    }*/
     
 }
     
