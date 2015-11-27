@@ -48,56 +48,54 @@
 
 p {
   font-family: 'Lato', sans-serif;
-  font-size: 1em;
+  font-size: 1.15em;
   line-height: 1.5em;
   margin: 0.5em auto;
 	padding: 0 5%;
 }
 
+h1 {
+  color: #000;
+}
 
 
 /* header */
 
 .page-header {
-    background-color: black; 
-    height: 50px; 
-    margin: 0; 
-    padding: 0; 
-    border: none; 
+    background-color: black;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .benefix-logo {
-    width: 100px; 
+    width: 100px;
     margin-top: 12.5px;
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 
 
-
-
-
 #menu-button {
-    background-image: none; 
-    border: none; 
+    background-image: none;
+    border: none;
     background-color: black;
-    margin-top: 12.5px; 
-    margin-right: 15px; 
-    padding:0; 
-    
+    margin-top: 12.5px;
+    margin-right: 15px;
+    padding:0;
 }
 
 
 .menu-icon {
-    height: 20px; 
+    height: 20px;
 }
 
 
-
 .dropdown-menu {
-    
-    background-color: black; 
-    font-family:"nerissemibold"; 
-    color: #e8c52e; 
+
+    background-color: black;
+    font-family:"nerissemibold";
+    color: #e8c52e;
 }
 
 
@@ -117,66 +115,63 @@ background:     #e8c52e;
 /* Landingpage */
 
 
-.landingpage { 
+.landingpage {
     background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(125,185,232,0) 100%), url(../img/child.jpg); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(125,185,232,0) 100%), url(../img/child.jpg); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(125,185,232,0) 100%), url(../img/child.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   
-    
+
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: 40% 50%;
-    margin-top: 50px; 
-   
+    margin-top: 50px;
+
 }
 
 
 
 .landingpage h1 {
-    
+
 font-family: 'nerissemibold', sans-serif;
-font-size: 1.8em; 
-color: white; 
-   
+font-size: 1.8em;
+color: white;
 }
 
 
 .landingpage h2 {
-    
+
 font-family: 'Lato', sans-serif;
-font-size: 1em; 
-color: white; 
-margin: 0 7% 0 7%; 
-   
+font-size: 1em;
+color: white;
+margin: 0 7% 0 7%;
+
 }
 
 
 .landingpage-ul {
-  padding: 30px; 
+  padding: 30px;
 }
 
 
 .landingpage-li {
     margin-bottom: 20px;
-
- 
 }
 
 .landingpage-ul a {
-    color: #e8c52e; 
-    border: 3px solid #e8c52e; 
- 
+    color: #e8c52e;
+    border: 3px solid #e8c52e;
+
 }
 
 
 .landingpage-ul p {
     font-family: 'nerisblack', sans-serif;
-    font-size: 1.1em; 
-     margin: 0 0 0 0; 
-    padding: 0 0 0 0; 
-  
+    font-size: 1.1em;
+     margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
 }
 
 
@@ -205,7 +200,7 @@ background:     #e8c52e;
 .about-us h2 {
   color: #000;
   font-family: 'nerissemibold', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -219,8 +214,8 @@ background:     #e8c52e;
   	font-weight: bold;
   	color: #e8c52e;
   	font-size: 0.95em;
-		width: 100px;
-		height: 101px;
+		width: 93px;
+		height: 94px;
 }
 
 .about-us li:nth-child(1) {
@@ -243,59 +238,58 @@ background:     #e8c52e;
 }
 
 
-/*portfolio*/
+/* Portfolio */
 
 
-/*.portfolio{
-    background-color: #fff;
-    padding: 0 0;
+.portfolio{
+    margin:0;
+    padding: 0;
     width: 100%;
-}*/
+    margin-bottom: 50px;
+}
 
-
-
-.portfolio h1{
+.portfolio h1 {
   margin: 0;
   padding: 15px 0;
   background-color: #d4145a;
   font-weight: normal;
   font-family: 'nerislight', sans-serif;
- 
-    
 }
 
 .portfolio h2 {
     color: #000;
     margin-top: 2em;
-    font-family: 'nerislight' sans-serif;
-    font-size: 1.2em;
+    margin-bottom: 1em;
+    font-family: 'nerissemibold', sans-serif;
+    font-size: 1.4em;
     text-align: center;
 }
 
-.portfolio li:nth-child(1) {
-    background: url("../img/boy.gif") no-repeat;
-    background-size: 100%;
-    
-    
+.carousel-container {
+  padding: 0;
+  margin: 0;
 }
 
-.portfolio li:nth-child(2) {
-    background: url("../img/children.gif") no-repeat;
-    background-size: 100%;
+#image-slider {
+  max-width: 750px;
 }
 
-.portfolio li:nth-child(3){
-    background: url("../img/girl.png") no-repeat;
-    background-size: 100%;
+
+#image-slider img {
+
 }
 
+#image-slider h3 {
+  font-family: 'nerissemibold', sans-serif;
+  font-size: 1.3em;
+}
 
 
 /* Contact us */
 
 .contact-us h1 {
 	margin: 0;
-	padding: 15px 0;
+	padding: 15px 0 15px;
 	background-color: #00998a;
 	font-weight: normal;
   font-family: 'nerislight', sans-serif;
@@ -304,7 +298,7 @@ background:     #e8c52e;
 .contact-us h2 {
 	color: #000;
 	font-family: 'nerissemibold', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -347,7 +341,7 @@ background-color: rgba(0,153,138,0.3) !important;
 }
 
 .btn {
-  margin-top: 5px;
+  margin-top: 10px;
   background-color: rgba(0,153,138,0.3) !important;
 	font-family: 'Lato', sans-serif;
   font-size: 1em;
@@ -374,15 +368,15 @@ footer  {
     clear: both;
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
-   margin-top: 40px; 
-    }
+    margin-top: 40px;
+ }
 
 
 .footer-paragraph {
    margin: 0 auto;
     padding: 3px 0 10px;
-    font-size: 1.2em; 
-    
+    font-size: 1.2em;
+
 
 }
 
@@ -399,80 +393,83 @@ footer  {
 
 @media screen and (min-width: 768px)  {
 
-  /* About us */
 
-  		.about-us li {
-  		  	padding: 80px 0 10px;
-  				margin: 20px 20px 50px;
-  		  	text-align: center;
-  		  	font-size: 1.7em;
-  				width: 200px;
-  				height: 201px;
-  		}
+  h1 {
+    font-size: 3.5em;
+  }
 
-      .about-us h2 {
-          margin-top: 50px;
-      }
-    
-    
-/* landingpage */
-    
-    
-.landingpage h1 {
-
-font-size: 3.5em;
-margin: 60px 40px 40px 40px; 
-
-   
-}
+  h2 {
+    font-size: 1.6em;
+  }
 
 
-.landingpage h2 {
-    
-font-size: 1.9em; 
-margin: 0 7% 0 7%;
+/* About us */
 
-   
-}
+	.about-us li {
+	  	padding: 80px 0 10px;
+			margin: 20px 20px 50px;
+	  	text-align: center;
+	  	font-size: 1.7em;
+			width: 200px;
+			height: 201px;
+	}
+
+  .about-us h2 {
+      margin-top: 50px;
+  }
 
 
-.landingpage-ul {
-  padding: 70px; 
-}
+  /* landingpage */
 
 
-.landingpage-li {
+  .landingpage h1 {
+  font-size: 3.5em;
+  margin: 60px 40px 40px 40px;
+  }
+
+
+  .landingpage h2 {
+  font-size: 1.9em;
+  margin: 0 7% 0 7%;
+  }
+
+
+  .landingpage-ul {
+    padding: 70px;
+  }
+
+
+  .landingpage-li {
     margin-bottom: 40px;
-
-}
-
-
-
-.landingpage-ul p {
-    font-size: 1.1em; 
-
-    }
-    
-    /* Contact us */
-
-    .contact-us h2 {
-        margin-top: 50px;
-    }
+  }
 
 
 
-    
-     .landingpage-ul a {
-    color: #e8c52e; 
-    border: 6px solid #e8c52e; 
-    font-size: 1.6em; 
-}
-    
-    /*.portfolio*/
-    
-   /* .portfolio-gallery-ul li{
-        heigt: 310px;
-    }*/
+  .landingpage-ul p {
+    font-size: 1.1em;
+  }
+
+  /* Contact us */
+
+  .contact-us h2 {
+    margin-top: 50px;
+  }
+
+  .landingpage-ul a {
+    color: #e8c52e;
+    border: 6px solid #e8c52e;
+    font-size: 1.6em;
+  }
+
+  /*. Portfolio */
+
+  .portfolio {
+    margin-bottom: 80px;
+  }
+
+  .portfolio h2 {
+    margin-top: 50px;
+  }
 }
 
 
@@ -480,57 +477,42 @@ margin: 0 7% 0 7%;
 /* Media queries desktop size */
 
 @media screen and (min-width: 992px)  {
-    
-    
-    /* landingpage */
-    
-    
-.landingpage-ul {
-    padding: 100px 70px 100px 70px; 
-}
-    
-.landingpage-ul a {
-    margin: 45px; 
-}
-    
-.benefix-logo {
-    margin-left: 25px; 
-    margin-top: 22px; 
-    width: 150px;
-}
-    
-    
-#menu-button {
-    margin-right: 25px; 
-    margin-top: 25px; 
-    padding:0; 
-    
-}
 
 
-.menu-icon {
-    height: 32px; 
-}
+  /* landingpage */
+
+
+  .landingpage-ul {
+      padding: 100px 70px 100px 70px;
+  }
+
+  .landingpage-ul a {
+      margin: 45px;
+  }
+
+  .benefix-logo {
+      margin-left: 25px;
+      margin-top: 22px;
+      width: 150px;
+  }
+
+  #menu-button {
+      margin-right: 25px;
+      margin-top: 25px;
+      padding:0;
+  }
+
+  .menu-icon {
+      height: 32px;
+  }
 
   .page-header {
-    height: 80px; 
+      height: 80px;
+  }
 
-} 
-    
-    .landingpage h1 {
+  .landingpage h1 {
+  font-size: 3.5em;
+  margin: 90px 40px 60px 40px;
+  }
 
-font-size: 3.5em;
-margin: 90px 40px 60px 40px; 
-
-   
 }
-    
-    /*/*portfolio*/
-    
-    .portfolio-gallery-ul li{
-        height: 310px;
-    }*/
-    
-}
-    
-

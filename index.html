@@ -14,12 +14,12 @@
     <body>
 
 <main class="container-fluid">
-    
+
 <div class="page-header nav navbar-default navbar-fixed-top">
-    <a href="index.html"><img src="img/benefix_logo_transparent_white.png" alt="Benefix logo" class="benefix-logo pull-left"></a>
+    <a href="index.html"><img src="img/benefix_logo_2.svg" alt="Benefix logo" class="benefix-logo pull-left"></a>
     <div class="dropdown">
         <button class="dropdown-toggle pull-right" type="button" id="menu-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <img src="img/menu.png" alt="menu-bar" class="menu-icon"> 
+            <img src="img/menu.png" alt="menu-bar" class="menu-icon">
         </button>
         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
             <li><a href="#">Portfolio</a></li>
@@ -28,7 +28,7 @@
         </ul>
     </div>
   </div>
-</header>
+
 
 
 <section class="landingpage">
@@ -39,7 +39,7 @@
   <div class="row row-centered">
     <ul class="landingpage-ul nav">
       <li role="presentation" class="landingpage-li text-centered col-md-4 col-lg-4"><a href="#"><p class="text-center">Portfolio</p></a></li>
-      <li role="presentation" class="landingpage-li text-centered col-md-4 col-lg-4"><a href="#"><p class="text-center">About us</p></p></a></li>
+      <li role="presentation" class="landingpage-li text-centered col-md-4 col-lg-4"><a href="#"><p class="text-center">About us</p></a></li>
       <li role="presentation" class="landingpage-li text-centered col-md-4 col-lg-4"><a href="#"><p class="text-center">Contact us</p></a></li>
     </ul>
     </div>
@@ -66,34 +66,69 @@
   </ul>
 </div>
 </section>
-    
-    <section class="portfolio">
-        <div class="container">
-        <h1 class="text-center">Portfolio</h1>
-        <h2 class="text-center">Our recent projects</h2>
-        <div class="center-block">    
-        <ul class="img-responsive" alt="responsive image">
-            <li><a href="">Happy child</a></li>
-            <li><a href="">Family</a></li>
-            <li><a href="">Human and natur</a></li>
-        </ul>
-        </div>
-        </div>
-        
-        
-        
-    </section>
 
-        
-        
+
+<section class="portfolio" id="portfolio">
+
+  <h1 class="text-center">Portfolio</h1>
+  <h2 class="text-center">Our recent projects</h2>
+
+  <div class="carousel-container">
+    <div id="image-slider" class="carousel slide center-block" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+         <li data-target="#image-slider" data-slide-to="0" class="active"></li>
+         <li data-target="#image-slider" data-slide-to="1"></li>
+         <li data-target="#image-slider" data-slide-to="2"></li>
+       </ol>
+
+       <div class="carousel-inner" role="listbox">
+
+         <div class="item active">
+           <img src="img/boy2.jpg" alt="...">
+           <div class="carousel-caption">
+           <h3>Happy Child</h3>
+           </div>
+         </div>
+
+         <div class="item">
+           <img src="img/children2.gif" alt="...">
+           <div class="carousel-caption">
+           <h3>Family</h3>
+           </div>
+         </div>
+
+         <div class="item">
+           <img src="img/girl4.jpg" alt="...">
+           <div class="carousel-caption">
+           <h3>Human and Nature</h3>
+           </div>
+         </div>
+
+       </div>
+
+       <a class="left carousel-control" href="#image-slider" role="button" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="right carousel-control" href="#image-slider" role="button" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+
+    </div>
+  </div>
+
 </section>
 
+
+
   <section class="contact-us">
-    <h1 class="text-center">Contact us</h1>css
+    <h1 class="text-center">Contact us</h1>
     <div class="container contact">
       <div class="row row-centered">
       <div class="contact-form col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-2">
-        <form action="" method="get">
+        <form action="index.html" method="get">
           <h2>Send us a message</h2>
           <div class="form-group">
             <label for="exampleInputName1">Name</label>
