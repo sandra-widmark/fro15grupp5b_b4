@@ -285,6 +285,9 @@ background:     #e8c52e;
   font-size: 1.3em;
 }
 
+a.project-link {
+  color: white;
+}
 
 /* Contact us */
 
@@ -480,7 +483,7 @@ line-height: 35px;
   .portfolio h2 {
     margin-top: 50px;
   }
-    
+
 }
 
 
